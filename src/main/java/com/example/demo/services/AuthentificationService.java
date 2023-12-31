@@ -1,6 +1,10 @@
 package com.example.demo.services;
 
-import org.springframework.stereotype.Service;
+import com.example.demo.entityDTO.LogingInfoDTO;
+import org.springframework.http.ResponseEntity;
 
 public interface AuthentificationService {
+
+    public ResponseEntity<Object> loginUser(LogingInfoDTO logingInfoDTO);
+
 }

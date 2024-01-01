@@ -30,6 +30,11 @@ public class AuthentificationServiceImpl implements AuthentificationService {
         }
     }
 
+    @Override
+    public void logoutUser() {
+
+    }
+
     public Boolean isPasswordCorrect(String realPassWord, String dtoPassWord) {
         return realPassWord.equals(dtoPassWord);
     }

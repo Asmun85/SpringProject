@@ -40,7 +40,6 @@ public class UserController {
         }else{
             return new ResponseEntity<>("Please chose another login",HttpStatus.NOT_ACCEPTABLE);
         }
-
     }
 
     @DeleteMapping("user/{id}")

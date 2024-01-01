@@ -7,4 +7,6 @@ public interface AuthentificationService {
 
     public ResponseEntity<Object> loginUser(LogingInfoDTO logingInfoDTO);
 
+    public void logoutUser();
+
 }

@@ -1,4 +1,4 @@
-package com.example.demo.entityDTO;
+package com.example.authentification.entityDTO;
 
 import lombok.Data;
 

@@ -1,9 +1,9 @@
-package com.example.demo.serviceImpl;
+package com.example.authentification.serviceImpl;
 
-import com.example.demo.entity.User;
-import com.example.demo.entityDTO.LogingInfoDTO;
-import com.example.demo.repository.UserRepository;
-import com.example.demo.services.AuthentificationService;
+import com.example.authentification.entity.User;
+import com.example.authentification.entityDTO.LogingInfoDTO;
+import com.example.authentification.repository.UserRepository;
+import com.example.authentification.services.AuthentificationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

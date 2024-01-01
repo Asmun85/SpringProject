@@ -1,6 +1,6 @@
-package com.example.demo.services;
+package com.example.authentification.services;
 
-import com.example.demo.entityDTO.LogingInfoDTO;
+import com.example.authentification.entityDTO.LogingInfoDTO;
 import org.springframework.http.ResponseEntity;
 
 public interface AuthentificationService {
